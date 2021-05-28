@@ -37,6 +37,8 @@ img {
   top: 200px;
   left: 100px;
   color: #fff;
+  animation: textup 12s linear infinite;
+  transform: translateY(100px);
 }
 
 .text-box h1 {
@@ -142,5 +144,14 @@ img {
   }
   100% {
     visibility: visible;
+  }
+}
+
+@keyframes textup {
+  10% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
