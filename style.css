@@ -155,3 +155,19 @@ img {
     transform: translateY(0px);
   }
 }
+
+.text-box1 {
+  animation-delay: 0s;
+}
+
+.text-box2 {
+  animation-delay: 3s;
+}
+
+.text-box3 {
+  animation-delay: 6s;
+}
+
+.text-box4 {
+  animation-delay: 9s;
+}
